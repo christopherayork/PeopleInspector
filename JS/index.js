@@ -1,7 +1,7 @@
 function loadJSON(path, callback) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
-    xobj.open('GET', path, true); // '../DATA/people.json' should be our path
+    xobj.open('GET', path, true); // './DATA/people.json' should be our path
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200") {
             callback(xobj.responseText);
@@ -94,4 +94,4 @@ function placeContent() {
     });
 }
 
-loadJSON('../DATA/people.json', eventJSON);
+loadJSON('./DATA/people.json', eventJSON);
