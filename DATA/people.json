@@ -1,0 +1,85 @@
+{
+  "people": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "Profession": "Farmer",
+      "Spouse": {
+        "firstName": "Emily",
+        "lastName": "Doe",
+        "Profession": "Mother"
+      },
+      "Children": [
+        {
+          "firstName": "Billy",
+          "lastName": "Doe",
+          "Profession": "Helper"
+        },
+        {
+          "firstName": "Sarah",
+          "lastName": "Doe",
+          "Profession": "Helper"
+        },
+        {
+          "firstName": "Joe",
+          "lastName": "Doe",
+          "Profession": "Helper"
+        }
+      ]
+    },
+    {
+      "firstName": "Bill",
+      "lastName": "Smith",
+      "Profession": "Carpenter",
+      "Spouse": {
+        "firstName": "Judith",
+        "lastName": "Smith",
+        "Profession": "Real Estate Agent"
+      },
+      "Children": [
+        {
+          "firstName": "Tony",
+          "lastName": "Smith",
+          "Profession": "Student"
+        },
+        {
+          "firstName": "Bob",
+          "lastName": "Smith",
+          "Profession": "Student"
+        },
+        {
+          "firstName": "Anette",
+          "lastName": "Smith",
+          "Profession": "Student"
+        }
+      ]
+    },
+    {
+      "firstName": "Becky",
+      "lastName": "Johnson",
+      "Profession": "Retail Manager",
+      "Spouse": {
+        "firstName": "Tim",
+        "lastName": "Johnson",
+        "Profession": "Cleanup Contractor"
+      },
+      "Children": [
+        {
+          "firstName": "Kyle",
+          "lastName": "Johnson",
+          "Profession": "Student"
+        },
+        {
+          "firstName": "Brittany",
+          "lastName": "Johnson",
+          "Profession": "Student"
+        },
+        {
+          "firstName": "Ashley",
+          "lastName": "Johnson",
+          "Profession": "Student"
+        }
+      ]
+    }
+  ]
+}
