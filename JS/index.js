@@ -56,7 +56,6 @@ function placeContent() {
             sList.appendChild(sp);
 
             sEl.appendChild(sList);
-            console.log(sEl);
             list.appendChild(sEl);
         }
 
